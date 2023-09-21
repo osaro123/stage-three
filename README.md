@@ -52,8 +52,3 @@ Design Flexibility
 While the app adheres to the requirements outlined in this README, you have the creative freedom to customize the design to your liking. You can modify the styling, layout, and appearance to create a unique and visually appealing image gallery.
 
 Thank you for using the React Image Gallery with Drag-and-Drop. We hope you enjoy using this app to showcase your image collection with style and ease!
-
-
-
-
-User
