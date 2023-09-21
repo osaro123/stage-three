@@ -1,23 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { auth } from '../firebase/firebase-config'
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth'
+import { signInWithEmailAndPassword } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
-    const [emailConstant,setEmailConstant] = useState("user@example.com")
-    const [passwordConstant,setPasswordConstant] = useState("1Password")
     const [user, setUser] = useState(null)
     const navigate = useNavigate()
-
-    const createAccount = async () => {
-        try{
-            await createUserWithEmailAndPassword(auth,emailConstant,passwordConstant)
-        }catch(e){
-            console.log(e);
-        }
-    }
 
     useEffect(() => {
         
