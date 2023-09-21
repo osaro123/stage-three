@@ -14,7 +14,7 @@ Getting Started
 To get started with the React Image Gallery with Drag-and-Drop, follow these steps:
 
 Clone this repository to your local machine:
-git clone https://github.com/your-username/react-image-gallery.git
+git clone https://github.com/osaro123/stage-three.git
 Navigate to the project folder:
 
 cd react-image-gallery
